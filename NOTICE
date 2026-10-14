@@ -1,0 +1,12 @@
+LLM Apps Lab
+This repository contains modified copies of projects from
+https://github.com/Shubhamsaboo/awesome-llm-apps (Apache License 2.0),
+copied from commit 4bf51ab704fb2c5b3803cd5191b30d7dcdb51dc2.
+
+Original path                                             -> Path here
+advanced_llm_apps/needle                                   -> apps/needle-semantic-find
+advanced_llm_apps/ripple                                   -> apps/ripple-edit-impact
+advanced_llm_apps/multimodal_video_moment_finder           -> apps/video-moment-finder
+advanced_llm_apps/gpt_oss_critique_improvement_loop        -> apps/critique-improvement-loop
+
+Changes: directories renamed. See git history for later changes.
