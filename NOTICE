@@ -8,5 +8,12 @@ advanced_llm_apps/needle                                   -> apps/needle-semant
 advanced_llm_apps/ripple                                   -> apps/ripple-edit-impact
 advanced_llm_apps/multimodal_video_moment_finder           -> apps/video-moment-finder
 advanced_llm_apps/gpt_oss_critique_improvement_loop        -> apps/critique-improvement-loop
+advanced_llm_apps/llm_optimization_tools/headroom_context_optimization -> apps/headroom-context-optimization
+advanced_llm_apps/llm_optimization_tools/toonify_token_optimization -> apps/toonify-token-optimization
 
-Changes: directories renamed. See git history for later changes.
+Changes: directories renamed. headroom-context-optimization/headroom_demo.py was
+rewritten to call the real headroom.compress() and report measured token counts
+(the original used a hand-picked list of log entries and did not call Headroom).
+README savings figures in headroom-context-optimization and
+toonify-token-optimization were relabeled as project-reported. See git history
+for later changes.

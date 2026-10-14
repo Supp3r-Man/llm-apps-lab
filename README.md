@@ -1,6 +1,6 @@
 # LLM Apps Lab
 
-Four LLM apps adapted from the open-source
+Six LLM apps adapted from the open-source
 [awesome-llm-apps](https://github.com/Shubhamsaboo/awesome-llm-apps) collection.
 The original code is by Shubham Saboo and contributors; see
 [Attribution](#attribution). You bring your own API keys. Nothing is stored.
@@ -11,6 +11,8 @@ The original code is by Shubham Saboo and contributors; see
 | [Needle](apps/needle-semantic-find) | Find-in-page by meaning. Highlights the sentence that answers your query. Chrome extension plus React app. | Node 22.12+, React, TypeSafe Jev via Vercel AI Gateway | Vercel AI Gateway key with credits |
 | [Ripple](apps/ripple-edit-impact) | Edit one fact in a Google Doc and see which other sentences now disagree, with suggested fixes. | Chrome extension, Node 22+, TypeSafe Jev, Gemini | TypeSafe key, Gemini key |
 | [Critique & Improvement Loop](apps/critique-improvement-loop) | Generate an answer, critique it, revise it, repeat for one to three rounds. | Streamlit, GPT-OSS on Groq | Groq key |
+| [Headroom Context Optimization](apps/headroom-context-optimization) | Compresses bulky tool output before it reaches the model. The demo runs the real library and checks that the key facts survive. Measured 40.5% fewer tokens on its sample. | Headroom | None for the demo |
+| [Toonify Token Optimization](apps/toonify-token-optimization) | Compares JSON with the more compact TOON format, with token counts and a cost calculator. Streamlit app. | Toonify, tiktoken | None for the demo |
 
 Each app has its own README with setup steps.
 
