@@ -74,8 +74,8 @@ streamlit run streamlit_app.py
 
 ## 📈 Expected Results
 
-Typically see:
-- **20-40% improvement** in answer quality
+The original author expects the following. These are claims from the source project, not measured in this repo:
+- **20-40% improvement** in answer quality (author's claim, not measured here)
 - **Better completeness** and accuracy
 - **Clearer explanations** and structure
 - **Fewer logical gaps** or missing information

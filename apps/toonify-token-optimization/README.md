@@ -1,6 +1,6 @@
 # 🎯 Toonify Token Optimization
 
-Reduce LLM API costs by 30-60% using TOON (Token-Oriented Object Notation) format for structured data serialization.
+Reduce LLM API costs, reported by the Toonify project at about 30-60%, using TOON (Token-Oriented Object Notation) format for structured data serialization.
 
 ## 📋 Overview
 
@@ -67,7 +67,7 @@ streamlit run toonify_app.py
 }
 ```
 
-### TOON (98 bytes, 60% reduction)
+### TOON (98 bytes, 60% smaller in bytes, not tokens)
 ```
 products[3]{id,name,price}:
   101,Laptop Pro,1299
@@ -101,7 +101,7 @@ products = [
     # ... many more products
 ]
 
-# Convert to TOON format (saves 60% tokens)
+# Convert to TOON format (the project reports roughly 30-60% fewer tokens)
 toon_data = encode(products)
 
 # Send to LLM with reduced token cost

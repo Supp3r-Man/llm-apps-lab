@@ -42,7 +42,7 @@ def main():
     
     st.title("🎯 Toonify Token Optimization")
     st.markdown("""
-    Reduce your LLM API costs by **30-60%** using TOON format for structured data!
+    Reduce your LLM API costs using TOON format for structured data! The Toonify project reports roughly 30-60% fewer tokens. Measure your own data below.
     
     [GitHub](https://github.com/ScrapeGraphAI/toonify) | 
     [Documentation](https://docs.scrapegraphai.com/services/toonify)
@@ -265,18 +265,18 @@ def main():
         st.header("📈 Format Benchmark")
         
         st.markdown("""
-        Based on benchmarks across 50 real-world datasets:
+        Reported by the Toonify project from its benchmark of 50 datasets. These three numbers are typed in, not computed by this app:
         """)
         
         # Benchmark stats
         col1, col2, col3 = st.columns(3)
         
         with col1:
-            st.metric("Avg Size Reduction", "63.9%")
+            st.metric("Avg Size Reduction", "63.9%")  # claim-audit: quoted
         with col2:
-            st.metric("Avg Token Reduction", "54.1%")
+            st.metric("Avg Token Reduction", "54.1%")  # claim-audit: quoted
         with col3:
-            st.metric("Best Case", "73.4%")
+            st.metric("Best Case", "73.4%")  # claim-audit: quoted
         
         # Data type performance
         st.subheader("Performance by Data Type")
