@@ -11,7 +11,10 @@ advanced_llm_apps/gpt_oss_critique_improvement_loop        -> apps/critique-impr
 advanced_llm_apps/llm_optimization_tools/headroom_context_optimization -> apps/headroom-context-optimization
 advanced_llm_apps/llm_optimization_tools/toonify_token_optimization -> apps/toonify-token-optimization
 
-Changes: directories renamed. headroom-context-optimization/headroom_demo.py was
+apps/profile-banner-studio and apps/repo-social-preview are original and are not
+derived from awesome-llm-apps.
+
+Changes to the adapted apps: directories renamed. headroom-context-optimization/headroom_demo.py was
 rewritten to call the real headroom.compress() and report measured token counts
 (the original used a hand-picked list of log entries and did not call Headroom).
 README savings figures in headroom-context-optimization and
