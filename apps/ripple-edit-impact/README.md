@@ -26,8 +26,8 @@ The backend calls `jev-latest` through the [TypeSafe API](https://docs.typesafe.
 Requires **Node.js 22+**, npm, a **TypeSafe API key** with access to Jev, and a **Gemini API key** with access to `gemini-3.5-flash-lite`.
 
 ```sh
-git clone https://github.com/Shubhamsaboo/awesome-llm-apps.git
-cd awesome-llm-apps/advanced_llm_apps/ripple
+git clone https://github.com/Supp3r-Man/llm-apps-lab.git
+cd llm-apps-lab/apps/ripple-edit-impact
 cp .env.example .env
 ```
 

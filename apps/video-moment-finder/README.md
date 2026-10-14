@@ -57,7 +57,8 @@ advanced_llm_apps/multimodal_video_moment_finder/
 ### Backend
 
 ```bash
-cd advanced_llm_apps/multimodal_video_moment_finder/backend
+git clone https://github.com/Supp3r-Man/llm-apps-lab.git
+cd llm-apps-lab/apps/video-moment-finder/backend
 python -m venv venv
 source venv/bin/activate
 pip install -r requirements.txt
@@ -71,7 +72,8 @@ Backend runs on `http://localhost:8890`.
 ### Frontend
 
 ```bash
-cd advanced_llm_apps/multimodal_video_moment_finder/frontend
+# In a new terminal, starting in the cloned llm-apps-lab folder
+cd apps/video-moment-finder/frontend
 npm install
 echo 'NEXT_PUBLIC_API_URL=http://localhost:8890' > .env.local
 npm run dev

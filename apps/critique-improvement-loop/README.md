@@ -22,7 +22,8 @@ This demo implements an iterative quality improvement process:
 ## 🛠️ Installation & Usage
 
 ```bash
-cd critique_improvement_streamlit_demo
+git clone https://github.com/Supp3r-Man/llm-apps-lab.git
+cd llm-apps-lab/apps/critique-improvement-loop
 pip install -r requirements.txt
 export GROQ_API_KEY=your_key_here
 streamlit run streamlit_app.py

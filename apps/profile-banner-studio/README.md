@@ -18,7 +18,7 @@ You need a Gemini API key from [Google AI Studio](https://aistudio.google.com/ap
 ```bash
 cd apps/profile-banner-studio
 pip install -r requirements.txt
-export GEMINI_API_KEY=your-key     # or paste it in the sidebar
+export GEMINI_API_KEY=your-key     # GOOGLE_API_KEY also works, or paste it in the sidebar
 streamlit run app.py
 ```
 

@@ -27,8 +27,8 @@ The backend accesses `typesafe-ai/jev` through [Vercel AI Gateway's evaluation A
 Requires **Node.js 22.12+**, npm, and a Vercel AI Gateway account with access to `typesafe-ai/jev` and sufficient credits. Obtain an **AI Gateway API key** from the [Vercel AI Gateway dashboard](https://vercel.com/dashboard/ai-gateway). An OpenAI key or a direct TypeSafe key is not a substitute for this endpoint.
 
 ```sh
-git clone https://github.com/Shubhamsaboo/awesome-llm-apps.git
-cd awesome-llm-apps/advanced_llm_apps/needle
+git clone https://github.com/Supp3r-Man/llm-apps-lab.git
+cd llm-apps-lab/apps/needle-semantic-find
 npm ci
 cp .env.example .env
 ```

@@ -34,6 +34,8 @@ pip install -r requirements.txt
 
 ```bash
 export OPENAI_API_KEY='your-api-key-here'
+# or, to try Claude as well:
+export ANTHROPIC_API_KEY='your-api-key-here'
 ```
 
 ## 💻 Usage
